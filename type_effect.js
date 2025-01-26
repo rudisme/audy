@@ -38,7 +38,7 @@ var aText = new Array(
 var iSpeed = 50; // time delay of print out
 var iIndex = 0; // start printing array at this position
 var iArrLength = aText[1].length; // the length of the text array
-var iScrollAt = 100; // start scrolling up at this many lines
+var iScrollAt = 50; // start scrolling up at this many lines
  
 var iTextPos = 0; // initialise text position
 var sContents = ''; // initialise contents variable

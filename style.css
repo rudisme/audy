@@ -1,16 +1,22 @@
 body {
   font-family: 'Cursive', cursive;
-  font-family: 'Cursive', serif; 
+  font-family: 'Open Serif', serif; 
   color:#000;
   background-color:white;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   height: 100%;
 }
 
-.title {
+.judul {
   font-family: Playwrite AU VIC;
   font-size: 18px;
   text-align: center;
   font-weight: 400;
+}
+
+.paragraf {
+  font-family: Open Sans;
+  font-size: 16px;
+  text-align: center;
 }

@@ -5,3 +5,10 @@ font-family: 'Cursive', serif;
   background-color:white;
   text-align: center;
 }
+
+.title {
+  font-family: Playwrite AU VIC;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+}

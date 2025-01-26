@@ -238,7 +238,16 @@ img.g-img + div {
                       Hello World!
                     </h1>
 										<p style="margin: 0 0 20px 0; font-size: 14px; text-align: center; color: #000; line-height: 20px;">
-                      Nama saya Audy Jessenia Shanum, Saya lahir di Pontianak, 23 Januari 2025. Saya adalah anak kesayangan pertama dari orang tua saya Astri dan Rudy. Mohon doanya yaa,.. supaya saya selalu tumbuh dengan sehat, berbakti kepada orang tua, taat kepada Allah dan selalu membanggakan keluarga tercinta... Aamiin...</p>
+                      Nama saya Audy Jessenia Shanum, Saya lahir di Pontianak, 23 Januari 2025 (Usia <?php
+    $birth_date = '2025-01-23';
+    $current_date = date('Y-m-d');
+    $birth_date_obj = new DateTime($birth_date);
+    $current_date_obj = new DateTime($current_date);
+    $diff = $current_date_obj->diff($birth_date_obj);
+    $age_years = $diff->y;
+    echo "Usia: $age_years tahun";
+
+?>). Saya adalah anak kesayangan pertama dari orang tua saya Astri dan Rudy. Mohon doanya yaa,.. supaya saya selalu tumbuh dengan sehat, berbakti kepada orang tua, taat kepada Allah dan selalu membanggakan keluarga tercinta... Aamiin...</p>
                     <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                       <tbody><tr>
                         <td style="padding: 5px 10px 20px 10px; text-align: center">

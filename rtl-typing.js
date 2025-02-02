@@ -1,5 +1,5 @@
 
-var string = "اللهم اجْعَلْهُ بَارًّا تَقِيًّا رَشِيْدًا وَأَنْبِتْهُ فِي الْإِسْلَامِ نَبَاتًا حَسَنًا"; /* type your text here */
+var string = "ٱلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّٰهِ وَبَرَكَاتُهُ"; /* type your text here */
 var array = string.split("");
 var timer;
 

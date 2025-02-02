@@ -143,8 +143,12 @@ g[id^=BudGroup] g[id^=BudGroup] g[id^=Bud],
   }
 }
 
-#text {
+#text-rtl {
   font-size: 16px;
   direction:rtl;
+  color: #000000;
+}
+
+.text-color-dark {
   color: #000000;
 }

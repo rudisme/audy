@@ -142,3 +142,9 @@ g[id^=BudGroup] g[id^=BudGroup] g[id^=Bud],
     opacity: 1;
   }
 }
+
+#text {
+  font-size: 7.6vw;
+  direction:rtl;
+
+}

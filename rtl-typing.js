@@ -1,17 +1,15 @@
-$(function(){
-  typitvs();
-});
 
-function typitvs(){
-  var h2 = $(".main h2");
-  var text = $(h2).text();
-  $(h2).text("");
-  var i = 0;
-  var len = text.length;
-  setInterval(function(){
-    if(i<len){
-      $(h2).append(text[i]);
-      i++;
-    }
-  },200);
+var string = "اللهم اجْعَلْهُ بَارًّا تَقِيًّا رَشِيْدًا وَأَنْبِتْهُ فِي الْإِسْلَامِ نَبَاتًا حَسَنًا"; /* type your text here */
+var array = string.split("");
+var timer;
+
+function frameLooper () {
+	if (array.length > 0) {
+		document.getElementById("text").innerHTML += array.shift();
+	} else {
+		clearTimeout(timer);
+			}
+	loopTimer = setTimeout('frameLooper()',70); /* change 70 for speed */
+
 }
+frameLooper();

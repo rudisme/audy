@@ -1,5 +1,5 @@
 .speech, .speech:visited { display: none; }
-a.speechbox-ad-link { display: none; }
+.speechbox-ad-link, .speechbox-ads { display: none; }
 .message-container > .ad { display: none; }
 
 

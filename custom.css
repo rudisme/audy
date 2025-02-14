@@ -1,6 +1,6 @@
-a.speech { display: none; }
+.speech, .speech:visited { display: none; }
 a.speechbox-ad-link { display: none; }
-.ad { display: none; }
+.message-container > .ad { display: none; }
 
 
 

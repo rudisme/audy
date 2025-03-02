@@ -1,10 +1,10 @@
 var falling = true;
 
-TweenLite.set("#container",{perspective:600})
+TweenLite.set("#containerx",{perspective:600})
 //TweenLite.set("img",{xPercent:"-50%",yPercent:"-50%"})
 
 var total = 10;
-var container = document.getElementById("container"),	w = window.innerWidth , h = window.innerHeight;
+var containerx = document.getElementById("containerx"),	w = window.innerWidth , h = window.innerHeight;
  
  for (i=0; i<total; i++){ 
    var Div = document.createElement('div');
@@ -13,9 +13,9 @@ var container = document.getElementById("container"),	w = window.innerWidth , h 
    TweenLite.set(Div,{attr:{class:'dot'},x:R(0,w),y:R(-200,-150),z:R(-200,200),xPercent:"-50%",yPercent:"-50%"});
    TweenLite.set(Div2,{attr:{class:'dot2'},x:R(0,w),y:R(-200,-150),z:R(-200,200),xPercent:"-50%",yPercent:"-50%"});
    TweenLite.set(Div3,{attr:{class:'dot3'},x:R(0,w),y:R(-200,-150),z:R(-200,200),xPercent:"-50%",yPercent:"-50%"});
-   container.appendChild(Div);
-   container.appendChild(Div2);
-   container.appendChild(Div3);
+   containerx.appendChild(Div);
+   containerx.appendChild(Div2);
+   containerx.appendChild(Div3);
    animm(Div);
    animm2(Div2);
    animm3(Div3);
